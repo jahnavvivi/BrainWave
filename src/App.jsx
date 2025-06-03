@@ -5,7 +5,7 @@ import Header from "./components/Header";
 const App = () => {
   return (
     <>
-      <div className="p1-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
       </div>
       <ButtonGradient />
