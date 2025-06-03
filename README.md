@@ -21,11 +21,17 @@ This is a **frontend-only React-based application** that simulates a modern, res
 
 src/
 ├── assets/ # Images, icons, and static files
+
 ├── components/ # Reusable UI components
+
 ├── constants/ # Navigation links and static config
+
 ├── pages/ # Page-level components
+
 ├── App.jsx # Root component
+
 ├── index.js # React entry point
+
 └── styles/ # Global Tailwind styles (optional)
 
 ---
