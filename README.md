@@ -18,8 +18,9 @@ This is a **frontend-only React-based application** that simulates a modern, res
 ---
 
 ## 📁 Folder Structure
+
 src/
-├── assets/  # Images, icons, and static files
+├── assets/ # Images, icons, and static files
 ├── components/ # Reusable UI components
 ├── constants/ # Navigation links and static config
 ├── pages/ # Page-level components
@@ -27,24 +28,32 @@ src/
 ├── index.js # React entry point
 └── styles/ # Global Tailwind styles (optional)
 
-
 ---
 
 ## 🛠️ Installation
 
 1. **Clone the repo**
+
    ```bash
    git clone https://github.com/your-username/ai-chat-frontend.git
    cd ai-chat-frontend
 
+   ```
+
 2. **Install Dependencies**
-    npm install
+
+   ```bash
+   npm install
+
+   ```
 
 3. **Start Developer Server**
-    npm run dev
-
+   ```bash
+   npm run dev
+   ```
 
 ## 🔧 Tech Stack
+
 - React – UI library
 - Vite – Fast build tool
 - Tailwind CSS – Utility-first CSS framework
