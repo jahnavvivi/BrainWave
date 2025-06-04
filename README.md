@@ -20,6 +20,7 @@ This is a **frontend-only React-based application** that simulates a modern, res
 ## 📁 Folder Structure
 
 src/
+
 ├── assets/ # Images, icons, and static files
 
 ├── components/ # Reusable UI components
