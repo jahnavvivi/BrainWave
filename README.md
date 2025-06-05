@@ -42,7 +42,7 @@ src/
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/your-username/ai-chat-frontend.git
+   git clone https://github.com/jahnavvivi/BrainWave.git
    cd ai-chat-frontend
 
    ```
@@ -51,6 +51,11 @@ src/
 
    ```bash
    npm install
+
+   ```
+
+   ```bash
+   npm i ogl
 
    ```
 

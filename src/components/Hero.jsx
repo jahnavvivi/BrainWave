@@ -8,6 +8,7 @@ import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Generating from "./Generating";
 import CompanyLogos from "./CompanyLogos";
+import Particles from "./Particles";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -21,6 +22,19 @@ const Hero = () => {
       id="hero"
     >
       <div className="container relative" ref={parallaxRef}>
+        <div className="absolute inset-0 z-1 w-full">
+          <Particles
+            particleColors={["#ffffff", "#ffffff"]}
+            particleCount={500}
+            particleSpread={10}
+            speed={0.1}
+            particleBaseSize={100}
+            moveParticlesOnHover={true}
+            alphaParticles={false}
+            disableRotation={false}
+          />
+        </div>
+
         <div
           className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.75rem]
         md:mb-20 lg:mb-[6.25rem]"
@@ -81,10 +95,10 @@ const Hero = () => {
                 </ScrollParallax>
 
                 <ScrollParallax isAbsolutelyPositioned>
-                  <Notification 
-                  className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem]
+                  <Notification
+                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem]
                   xl:flex"
-                  title="Code Generation"
+                    title="Code Generation"
                   />
                 </ScrollParallax>
               </div>
@@ -108,7 +122,7 @@ const Hero = () => {
 
           <BackgroundCircles />
         </div>
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block"/>
+        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
       </div>
       <BottomLine />
     </Section>
