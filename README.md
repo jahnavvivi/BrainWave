@@ -12,8 +12,6 @@ This is a **frontend-only React-based application** that simulates a modern, res
 - 🎨 Styled using **Tailwind CSS**
 - 📱 Fully **responsive** for mobile and desktop
 - 🎯 Modular components for easy scaling
-- 🧠 Placeholder for integrating AI APIs
-- 🌙 Dark mode ready (optional feature)
 
 ---
 
@@ -43,7 +41,7 @@ src/
 
    ```bash
    git clone https://github.com/jahnavvivi/BrainWave.git
-   cd ai-chat-frontend
+   cd BrainWave
 
    ```
 
@@ -70,3 +68,12 @@ src/
 - Vite – Fast build tool
 - Tailwind CSS – Utility-first CSS framework
 - React Router DOM – For navigation (if routing is used)
+
+## 🖼️ Screenshots
+
+|                                      |                                      |
+| :----------------------------------: | :----------------------------------: |
+| ![Image1](./screenshots/image-1.png) | ![Image2](./screenshots/image-2.png) |
+| ![Image3](./screenshots/image-3.png) | ![Image4](./screenshots/image-4.png) |
+| ![Image5](./screenshots/image-5.png) | ![Image6](./screenshots/image-6.png) |
+| ![Image7](./screenshots/image-7.png) |

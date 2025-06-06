@@ -2,9 +2,12 @@ import ButtonGradient from "./assets/svg/ButtonGradient";
 import Benefits from "./components/Benefits";
 import Button from "./components/Button";
 import Collaboration from "./components/Collaboration";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Particles from "./components/Particles";
+import Pricing from "./components/Pricing";
+import Roadmap from "./components/Roadmap";
 import Section from "./components/Section";
 import Services from "./components/Services";
 import Threads from "./components/Threads";
@@ -18,13 +21,11 @@ const App = () => {
         <Benefits />
         <Collaboration />
         <Services />
+        <Pricing />
+        <Roadmap />
+        <Footer />
       </div>
       <ButtonGradient />
-      <Section>
-        <div style={{ width: "100%", height: "25rem", position: "relative" }}>
-          <Threads amplitude={1} distance={0} enableMouseInteraction={true} />
-        </div>
-      </Section>
     </>
   );
 };

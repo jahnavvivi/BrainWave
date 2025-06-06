@@ -25,7 +25,7 @@ const Hero = () => {
         <div className="absolute inset-0 z-1 w-full">
           <Particles
             particleColors={["#ffffff", "#ffffff"]}
-            particleCount={500}
+            particleCount={250}
             particleSpread={10}
             speed={0.1}
             particleBaseSize={100}

@@ -3,6 +3,7 @@ import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
+import Orb from "./Orb";
 
 const Collaboration = () => {
   return (
@@ -33,10 +34,29 @@ const Collaboration = () => {
           <p className="body-2 mb-10 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
             {collabText}
           </p>
+          {/* <div style={{ width: "100%", height: "600px", position: "relative" }}>
+            <Orb
+              hoverIntensity={0.5}
+              rotateOnHover={true}
+              hue={0}
+              forceHoverState={false}
+            />
+          </div> */}
           <div
             className="mt-5 relative left-1/2 flex w-[22rem] aspect-square border border-n-6
           rounded-full -translate-x-1/2 scale:75 md:scale:100"
           >
+            {/* Orb Div */}
+            <div className="absolute inset-0 z-10 flex items-center justify-center">
+              <Orb
+                hoverIntensity={0.5}
+                rotateOnHover={true}
+                hue={0}
+                forceHoverState={false}
+              />
+            </div>
+
+            {/* Further Icons Div */}
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                 <div
