@@ -75,5 +75,4 @@ src/
 | :----------------------------------: | :----------------------------------: |
 | ![Image1](./screenshots/image-1.png) | ![Image2](./screenshots/image-2.png) |
 | ![Image3](./screenshots/image-3.png) | ![Image4](./screenshots/image-4.png) |
-| ![Image5](./screenshots/image-5.png) | ![Image6](./screenshots/image-6.png) |
-| ![Image7](./screenshots/image-7.png) |
+| ![Image5](./screenshots/image-5.png) | 
