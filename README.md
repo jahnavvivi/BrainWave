@@ -1,4 +1,4 @@
-# 💬 AI Chat Frontend Application
+# 💬 BrainWave Frontend Application
 
 This is a **frontend-only React-based application** that simulates a modern, responsive AI chatting interface. It provides an engaging UI for users to interact with an AI assistant in a chat-like environment. The UI is built with performance and accessibility in mind, using React and Tailwind CSS.
 
